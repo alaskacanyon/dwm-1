@@ -2,17 +2,17 @@
 
 /* appearance */
 static const unsigned int borderpx  = 1;        /* border pixel of windows */
-static const unsigned int snap      = 32;       /* snap pixel */
-static const unsigned int gappih    = 2;       /* horiz inner gap between windows */
-static const unsigned int gappiv    = 2;       /* vert inner gap between windows */
-static const unsigned int gappoh    = 2;       /* horiz outer gap between windows and screen edge */
-static const unsigned int gappov    = 3;       /* vert outer gap between windows and screen edge */
+static const unsigned int snap      = 15;       /* snap pixel */
+static const unsigned int gappih    = 1;       /* horiz inner gap between windows */
+static const unsigned int gappiv    = 1;       /* vert inner gap between windows */
+static const unsigned int gappoh    = 1;       /* horiz outer gap between windows and screen edge */
+static const unsigned int gappov    = 1;       /* vert outer gap between windows and screen edge */
 static const int swallowfloating    = 0;        /* 1 means swallow floating windows by default */
-static const int smartgaps          = 0;        /* 1 means no outer gap when there is only one window */
+static const int smartgaps          = 1;        /* 1 means no outer gap when there is only one window */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "monospace:size=5", "JoyPixels:pixelsize=10:antialias=true:autohint=true"  };
-static char dmenufont[]             = "monospace:size=10";
+static const char *fonts[]          = {"Roboto:size:4" , "monospace:size=4", "JoyPixels:pixelsize=10:antialias=true:autohint=true"  };
+static char dmenufont[]             = "Roboto:size:6","monospace:size=6";
 static char normbgcolor[]           = "#222222";
 static char normbordercolor[]       = "#444444";
 static char normfgcolor[]           = "#bbbbbb";
